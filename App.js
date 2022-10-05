@@ -1,4 +1,4 @@
-import * as React from 'react';
+import * as React from 'react' ;
 import {
   Text,
   View,
@@ -24,6 +24,7 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
+        <View/>
         <Header
           backgroundColor={'#9c8210'}
           centerComponent={{
